@@ -1,0 +1,9 @@
+---
+applications:
+- name: publishermq
+  memory: 512M
+  instances: 1
+  services:
+    - rabbitmq
+
+
